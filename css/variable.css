@@ -7,10 +7,10 @@
   --color-text-muted: #6b7280;
   --color-border: #e5e7eb;
 
-  --radius: 8px;
-  --spacing-sm: 8px;
-  --spacing-md: 16px;
-  --spacing-lg: 32px;
+  --radius: 0.5rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
 
   --font-family: "Inter", system-ui, sans-serif;
 }

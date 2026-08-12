@@ -107,3 +107,8 @@ section {
   font-size: 0.875rem;
   margin-top: var(--spacing-sm);
 }
+
+.session-card--hoje {
+  border-color: var(--primary-color);
+  background-color: #eff6ff;
+}
