@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/variable.css"
+</head>
+<body>
+    <header>
+        <h1>Study Tracker</h1>
+        <p>Registro dos meus estudos</p>
+    </header>
+    <main>
+
+    <!-- 1. Cadastro de nova sessão -->
+        <section id="cadastro"> 
+            <h2> Nova Sessão </h2>
+            <form id="form-sessao">
+                <label for="tecnologia">Tecnologia</label>
+                <input type="text" id="tecnologia" name="tecnologia" required>
+
+                <label for="data">Data</label>
+                <input type="date" id="data" name="data" required> 
+
+                <label for="Horas">Horas estudadas</label>
+                <input type="number" id="horas" name="horas" step="0.5" min="0" required>
+
+                <label for="descricao">O que estudou</label>
+                <textarea id="descricao" name="descricao"></textarea>
+
+            </form>
+        </section>
+
+    <!-- 2. Total por tecnologia -->
+        <section id="resumo">
+            <h2> Total por tecnologia</h2>
+            <ul id="lista-totais"></ul>
+        </section>
+
+    <!-- 3. Histórico de sessões -->
+        <section id="historico">
+            <h2> Sessões registradas </h2>
+            <ul id="lista-sessoes"></ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p> Feito por Leonan - <a href="https://github.com/LeoGoveia" target="_blank">GitHub</a></p>
+    </footer>
+
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>
