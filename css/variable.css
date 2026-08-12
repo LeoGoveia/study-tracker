@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #2563eb;
+  --primary-dark-color: #1d4ed8;
+  --color-bg: #f8fafc;
+  --surface-color: #ffffff;
+  --color-text: #1f2937;
+  --color-text-muted: #6b7280;
+  --color-border: #e5e7eb;
+
+  --radius: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+
+  --font-family: "Inter", system-ui, sans-serif;
+}
