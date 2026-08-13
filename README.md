@@ -85,17 +85,6 @@ study-tracker/
 └── README.md
 ```
 
----
-
-## Próximos passos (v2)
-
-- Botão de excluir/editar sessão registrada
-- Filtro por tecnologia ou intervalo de datas
-- Gráfico visual do progresso por tecnologia
-- Backend real (API + banco de dados) para persistir entre dispositivos
-- Testes automatizados para as funções de `storage.js`
-
----
 
 ## Autor
 
