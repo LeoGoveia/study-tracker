@@ -1,6 +1,12 @@
 import { salvarSessao } from "./storage.js";
+import { renderizarSessoes, renderizarTotais } from "./render.js";
 
 const form = document.querySelector("#form-sessao");
+
+function atualizarTela() {
+  renderizarSessoes();
+  renderizarTotais();
+}
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -14,6 +20,6 @@ form.addEventListener("submit", (event) => {
   };
 
   salvarSessao(novaSessao);
-
   form.reset();
+  atualizarTela();
 });
