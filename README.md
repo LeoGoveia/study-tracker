@@ -88,6 +88,6 @@ study-tracker/
 
 ## Autor
 
-Feito por **Leonan** — [GitHub](https://github.com/LeoGoveia) · [LinkedIn](<[#](https://www.linkedin.com/in/leonanmatheus/)>)
+Feito por **Leonan** — [GitHub](https://github.com/LeoGoveia) · [LinkedIn]([https://www.linkedin.com/in/leonanmatheus/])
 
 Projeto feito estudando frontend do zero, documentando decisões técnicas conforme aprendidas.
