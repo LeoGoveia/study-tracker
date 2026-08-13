@@ -2,7 +2,7 @@
 
 Aplicação simples para registrar e acompanhar sessões de estudo — tecnologia estudada, data, horas dedicadas e o que foi visto em cada sessão. Feita para acompanhar minha própria trajetória voltando para desenvolvimento frontend.
 
-🔗 **[Ver projeto ao vivo](#)** _(link será adicionado após o deploy)_
+🔗 **[Ver projeto ao vivo](https://studytrackerv1.netlify.app/)**
 
 ---
 
